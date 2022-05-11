@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">Sistem Monitoring PKM Untuk Keluarga Sejahtera</string>
+    <string name="next">Berikutnya</string>
+    <string name="previous">Sebelumnya</string>
+    <string name="login">Masuk</string>
+    <string name="register">Daftar</string>
+    <string name="forgot_password">Lupa Password</string>
+    <string name="logout">Keluar</string>
+    <string name="profile">Profil</string>
+    <string name="username">Nama Pengguna</string>
+    <string name="password">Kata Sandi</string>
+    <string name="email">Email</string>
+    <string name="or">atau</string>
+    <string name="have_account">Sudah punya akun?</string>
+    <string name="not_have_account">Belum punya akun?</string>
+    <string name="create_new_account">Buat akun baru</string>
+    <string name="sub_title">Sistem Monitoring </string>
+    <string name="kegiatan_pkm">Kegiatan PKM</string>
+    <string name="data_usaha">Data Usaha</string>
+    <string name="progres">Perkembangan</string>
+    <string name="laporan_keuangan">Laporan Keuangan</string>
+    <string name="data_data_usaha">Data-data usaha Monitoring Kegiatan PKM</string>
+    <string name="pelaksanaan_kegiatan">Pelaksanaan Kegiatan PKM</string>
+    <string name="tambah_progres">Tambah Perkembangan Hasil Kerja</string>
+    <string name="nama_usaha">Nama Usaha</string>
+    <string name="jenis_usaha">Jenis Usaha</string>
+    <string name="alamat_usaha">Alamat Usaha</string>
+    <string name="no_hp">No. HP</string>
+    <string name="pendapatan">Pendapatan</string>
+    <string name="laporan_progress">Laporan Perkembangan Hasil Kerja</string>
+    <string name="harian">Harian</string>
+    <string name="mingguan">Mingguan</string>
+    <string name="bulanan">Bulanan</string>
+    <string name="tahunan">Tahunan</string>
+    <string name="pemasukan">Pemasukan</string>
+    <string name="pengeluaran">Pengeluaran</string>
+    <string name="saldo">Saldo</string>
+    <string name="tanggal">Tanggal</string>
+    <string name="keterangan">Keterangan</string>
+    <string name="jumlah">Jumlah</string>
+    <string name="sistem_monitoring">Sistem Monitoring</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="kegiatan">Kegiatan</string>
+    <string name="tambah_kegiatan_pkm">Tambah Kegiatan PKM</string>
+    <string name="jenis_kegiatan">Jenis Kegiatan</string>
+    <string name="nama_keluarga">Nama Keluarga</string>
+    <string name="hari">Hari</string>
+    <string name="waktu_pelaksanaan">Waktu Pelaksanaan</string>
+    <string name="simpan">Simpan</string>
+    <string name="cancel">Batal</string>
+    <string name="alamat">Alamat</string>
+    <string name="tanggal_detail">Tanggal (cth. 2022-04-22)</string>
+
+
+</resources>
