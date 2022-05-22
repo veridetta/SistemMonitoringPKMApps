@@ -67,6 +67,10 @@
                         android:textSize="@dimen/_12sdp"
                         android:text="@string/pelaksanaan_kegiatan"/>
                 </LinearLayout>
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/rv_kegiatan"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
             </LinearLayout>
             </LinearLayout>
         </androidx.core.widget.NestedScrollView>
