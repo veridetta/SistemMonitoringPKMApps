@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="@dimen/_3sdp"
+    app:cardUseCompatPadding="true"
+    app:cardCornerRadius="@dimen/_14sdp"
+    app:cardMaxElevation="@dimen/_4sdp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/_7sdp"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:gravity="center">
+        <TextView
+            android:id="@+id/tv_jam"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="08:00"
+            android:textSize="@dimen/_23sdp"
+            android:textStyle="bold"
+            android:textColor="@color/orange_700"
+            android:paddingLeft="@dimen/_7sdp" />
+        <TextView
+            android:id="@+id/tv_hari_tanggal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jumat, 12-01-2022"
+            android:textSize="@dimen/_11sdp"
+            android:paddingLeft="@dimen/_7sdp" />
+        <TextView
+            android:id="@+id/tv_jenis_kegiatan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dagang Mobil"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/_14sdp"
+            android:paddingLeft="@dimen/_7sdp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

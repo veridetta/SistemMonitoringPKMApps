@@ -61,6 +61,11 @@
                             android:text="@string/data_data_usaha"/>
                     </LinearLayout>
                 </LinearLayout>
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/rc_data"
+                    app:spanCount="2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
             </LinearLayout>
         </androidx.core.widget.NestedScrollView>
     </RelativeLayout>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="@dimen/_3sdp"
+    app:cardUseCompatPadding="true"
+    app:cardCornerRadius="@dimen/_14sdp"
+    app:cardMaxElevation="@dimen/_4sdp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/_7sdp"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/tv_tanggal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jumat, 12-01-2022"
+            android:textSize="@dimen/_11sdp"
+            android:paddingLeft="@dimen/_7sdp" />
+        <TextView
+            android:id="@+id/tv_minat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dagang Mobil"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/_14sdp"
+            android:paddingLeft="@dimen/_7sdp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/tv_nama"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="- Dagang Mobil"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/_14sdp"
+            android:paddingLeft="@dimen/_7sdp" />
+        <TextView
+            android:id="@+id/tv_hp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="- 0808342"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/_14sdp"
+            android:paddingLeft="@dimen/_7sdp" />
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

@@ -69,6 +69,7 @@
                 </LinearLayout>
                 <androidx.recyclerview.widget.RecyclerView
                     android:id="@+id/rv_kegiatan"
+                    app:spanCount="2"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"/>
             </LinearLayout>
@@ -81,11 +82,11 @@
             android:layout_height="@dimen/_50sdp"
             android:layout_alignParentRight="true"
             android:layout_alignParentBottom="true"
-            android:layout_margin="@dimen/_10sdp"
-            android:layout_marginStart="@dimen/_6sdp"
-            android:layout_marginTop="@dimen/_6sdp"
-            android:layout_marginEnd="@dimen/_6sdp"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginEnd="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_10sdp"
             android:src="@drawable/add_white"
-            app:backgroundTint="@color/blue_700"/>
+            app:backgroundTint="@color/blue_700" />
     </RelativeLayout>
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
