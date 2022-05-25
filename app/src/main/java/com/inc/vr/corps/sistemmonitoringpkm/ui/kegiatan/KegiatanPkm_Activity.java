@@ -60,7 +60,7 @@ public class KegiatanPkm_Activity extends AppCompatActivity
         initPreferences();
         initSpinner();
         recyclerView();
-
+        btnClick();
     }
     void header(){
         // toolbar fancy stuff
@@ -85,6 +85,16 @@ public class KegiatanPkm_Activity extends AppCompatActivity
         spBulan = findViewById(R.id.sp_bulan);
         btnAdd = findViewById(R.id.btn_add);
 
+    }
+    void btnClick(){
+        btnAdd.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(KegiatanPkm_Activity.this, Tambah_Kegiatan_PKM.class);
+                startActivity(intent);
+                finish();
+            }
+        });
     }
     void initSpinner(){
         String[] bulan = {"Januari","Februari","Maret","April","Mei","Juni","Juli","Agustus","September","Oktober","November","Desember"};

@@ -7,6 +7,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import android.app.SearchManager;
 import android.content.Context;
+import android.content.Intent;
 import android.content.SharedPreferences;
 import android.graphics.Color;
 import android.os.Build;
@@ -29,6 +30,8 @@ import com.inc.vr.corps.sistemmonitoringpkm.adapter.LaporanAdapter;
 import com.inc.vr.corps.sistemmonitoringpkm.api.ApiClient;
 import com.inc.vr.corps.sistemmonitoringpkm.model.KegiatanResponse;
 import com.inc.vr.corps.sistemmonitoringpkm.model.LaporanResponse;
+import com.inc.vr.corps.sistemmonitoringpkm.ui.kegiatan.KegiatanPkm_Activity;
+import com.inc.vr.corps.sistemmonitoringpkm.ui.kegiatan.Tambah_Kegiatan_PKM;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -115,7 +118,14 @@ public class LaporanKeuangan extends AppCompatActivity
                 getKegiatan(idUser,"year");
             }
         });
-
+        btnAdd.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(LaporanKeuangan.this, TambahKeuangan.class);
+                startActivity(intent);
+                finish();
+            }
+        });
     }
 
     void getKegiatan(String id, String group){

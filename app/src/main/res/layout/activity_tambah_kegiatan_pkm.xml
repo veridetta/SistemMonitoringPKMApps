@@ -45,11 +45,10 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
-                        <com.google.android.material.textfield.TextInputEditText
-                            android:id="@+id/tx_jenis_kegiatan"
+                        <Spinner
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:inputType="text"/>
+                            android:id="@+id/sp_jenis_kegiatan"/>
                     </com.google.android.material.textfield.TextInputLayout>
                     <TextView
                         android:layout_width="match_parent"
@@ -113,7 +112,7 @@
                             android:id="@+id/tx_waktu_pelaksanaan"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:inputType="text"/>
+                            android:inputType="time"/>
                     </com.google.android.material.textfield.TextInputLayout>
                     <Button
                         android:layout_width="match_parent"

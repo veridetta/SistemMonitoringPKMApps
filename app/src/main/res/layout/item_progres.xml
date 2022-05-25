@@ -13,7 +13,7 @@
         android:padding="@dimen/_7sdp"
         android:orientation="vertical">
         <TextView
-            android:id="@+id/tv_tanggal"
+            android:id="@+id/tv_nama"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Jumat, 12-01-2022"
@@ -30,7 +30,7 @@
             android:paddingLeft="@dimen/_7sdp"
             android:textStyle="bold" />
         <TextView
-            android:id="@+id/tv_nama"
+            android:id="@+id/tv_alamat"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="- Dagang Mobil"
@@ -47,6 +47,62 @@
             android:textColor="@color/colorPrimary"
             android:textSize="@dimen/_14sdp"
             android:paddingLeft="@dimen/_7sdp" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+            <LinearLayout
+                android:layout_width="1dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Pendapatan "
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="@color/green_500"
+                    android:textSize="@dimen/_12sdp"
+                    android:textStyle="bold"
+                    android:paddingLeft="@dimen/_7sdp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="1dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_gravity="end"
+                android:gravity="end">
+                <TextView
+                    android:id="@+id/tv_pendapatan"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rp 20.000 "
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="@color/green_500"
+                    android:textSize="@dimen/_12sdp"
+                    android:textStyle="bold"
+                    android:paddingLeft="@dimen/_7sdp" />
+            </LinearLayout>
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Status"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="@dimen/_12sdp"
+            android:paddingLeft="@dimen/_7sdp" />
+        <Spinner
+            android:id="@+id/sp_status"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/_7sdp"/>
+        <Button
+            android:id="@+id/btn_ubah"
+            android:layout_marginTop="@dimen/_7sdp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/blue_700"
+            android:text="Ubah Data"/>
     </LinearLayout>
 
 </androidx.cardview.widget.CardView>
